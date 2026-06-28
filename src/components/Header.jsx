@@ -782,7 +782,7 @@ export const Header = () => {
                 <div className="pf-contact-icon"><MdOutlineLocationOn /></div>
                 <div>
                   <p className="pf-contact-label">Location</p>
-                  <p className="pf-contact-value">Kapan, Kathmandu, Nepal</p>
+                  <p className="pf-contact-value">Kathmandu, Nepal</p>
                 </div>
               </div>
             </div>
