@@ -254,11 +254,10 @@ const Contact = () => {
       setLoading(true);
       setStatus("");
 
-      const res = await axios.post(
-        "http://localhost:3000/send/request/submitMail",
-        form
-      );
-
+  const res = await axios.post(
+  `${import.meta.env.VITE_BACKEND_URL}/send/request/submitMail`,
+  form
+);
       setStatus(res.data.message);
 
       setForm({
